@@ -1,12 +1,12 @@
 -- create a table
 CREATE TABLE Github (
   Customer Segment TEXT PRIMARY KEY,
-   year_2016 integer,
-   year_2017 integer,
-   year_2018 integer,
-   year_2019 integer,
-   year_2020 integer,
-   year_2022 integer
+   Y_2016(M) integer,
+   Y_2017(M) integer,
+   Y_2018(M) integer,
+   Y_2019(M) integer,
+   Y_2020(M) integer,
+   Y_2022(M) integer
 );
 -- insert some values
 INSERT INTO Github VALUES ('Developers',5.8 ,24,31,40,56,94);
